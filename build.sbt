@@ -3,6 +3,8 @@ ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / organization := "com.github.rintcius"
 ThisBuild / organizationName := "rintcius"
 
+ThisBuild / githubWorkflowPublishTargetBranches := Seq()
+
 lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-ping",
