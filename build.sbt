@@ -23,7 +23,7 @@ lazy val root = (project in file("."))
       "io.github.kirill5k" %% "mongo4cats-core" % "0.4.0",
       "is.cir" %% "ciris" % "2.1.1",
       "org.http4s" %% "http4s-server" % "1.0.0-M23",
-      "org.scalameta" %% "munit" % "0.7.28",
+      "org.scalameta" %% "munit" % "0.7.29",
       "org.scodec" %% "scodec-core" % "1.11.8",
       "org.scodec" %% "scodec-bits" % "1.1.29",
       "org.typelevel" %% "cats-core" % "2.6.1",
