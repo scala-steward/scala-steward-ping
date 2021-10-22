@@ -24,7 +24,7 @@ lazy val root = (project in file("."))
       "is.cir" %% "ciris" % "2.2.0",
       "org.http4s" %% "http4s-server" % "1.0.0-M29",
       "org.scalameta" %% "munit" % "0.7.29",
-      "org.scodec" %% "scodec-core" % "1.11.8",
+      "org.scodec" %% "scodec-core" % "1.11.9",
       "org.scodec" %% "scodec-bits" % "1.1.29",
       "org.typelevel" %% "cats-core" % "2.6.1",
       "org.typelevel" %% "cats-effect" % "3.2.9",
