@@ -12,7 +12,7 @@ lazy val root = (project in file("."))
       "co.fs2" %% "fs2-core" % "3.1.6",
       "com.codecommit" %% "skolems" % "0.2.1",
       "com.dimafeng" %% "testcontainers-scala-core" % "0.39.9",
-      "com.github.fs2-blobstore" %% "s3" % "0.9.4",
+      "com.github.fs2-blobstore" %% "s3" % "0.9.5",
       "dev.optics" %% "monocle-core" % "3.1.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.1",
       "io.chrisdavenport" %% "cormorant-fs2" % "0.5.0-M1",
