@@ -9,9 +9,9 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-ping",
     libraryDependencies ++= Seq(
-      "co.fs2" %% "fs2-core" % "3.2.7",
+      "co.fs2" %% "fs2-core" % "3.2.10",
       "com.codecommit" %% "skolems" % "0.2.1",
-      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.7",
+      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.8",
       "com.github.fs2-blobstore" %% "s3" % "0.9.6",
       "dev.optics" %% "monocle-core" % "3.1.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.1",
@@ -22,16 +22,16 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-golden" % "0.3.0",
       "io.github.kirill5k" %% "mongo4cats-core" % "0.4.8",
       "is.cir" %% "ciris" % "2.3.2",
-      "org.http4s" %% "http4s-server" % "1.0.0-M32",
+      "org.http4s" %% "http4s-server" % "1.0.0-M34",
       "org.scalameta" %% "munit" % "0.7.29",
       "org.scodec" %% "scodec-core" % "1.11.9",
-      "org.scodec" %% "scodec-bits" % "1.1.31",
+      "org.scodec" %% "scodec-bits" % "1.1.34",
       "org.typelevel" %% "cats-core" % "2.8.0",
       "org.typelevel" %% "cats-effect" % "3.3.12",
-      "org.typelevel" %% "cats-mtl" % "1.2.1",
-      "org.typelevel" %% "cats-parse" % "0.3.7",
+      "org.typelevel" %% "cats-mtl" % "1.3.0",
+      "org.typelevel" %% "cats-parse" % "0.3.8",
       "org.typelevel" %% "discipline-munit" % "1.0.9",
-      "org.typelevel" %% "log4cats-core" % "2.3.1",
+      "org.typelevel" %% "log4cats-core" % "2.3.2",
       "org.typelevel" %% "munit-cats-effect-3" % "1.0.7",
       "org.typelevel" %% "scalacheck-effect" % "1.0.4"
     )
