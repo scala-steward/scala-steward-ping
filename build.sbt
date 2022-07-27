@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-ping",
     libraryDependencies ++= Seq(
-      "co.fs2" %% "fs2-core" % "3.2.10",
+      "co.fs2" %% "fs2-core" % "3.2.11",
       "com.codecommit" %% "skolems" % "0.2.1",
       "com.dimafeng" %% "testcontainers-scala-core" % "0.40.9",
       "com.github.fs2-blobstore" %% "s3" % "0.9.6",
