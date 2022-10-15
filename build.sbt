@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.13.8"
+ThisBuild / scalaVersion := "2.13.10"
 ThisBuild / version := "0.1.0-SNAPSHOT"
 ThisBuild / organization := "com.github.rintcius"
 ThisBuild / organizationName := "rintcius"
@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "co.fs2" %% "fs2-core" % "3.3.0",
       "com.codecommit" %% "skolems" % "0.2.1",
-      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.10",
+      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.11",
       "com.github.fs2-blobstore" %% "s3" % "0.9.6",
       "dev.optics" %% "monocle-core" % "3.1.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.2",
@@ -20,9 +20,9 @@ lazy val root = (project in file("."))
       "io.chrisdavenport" %% "mapref" % "0.2.1",
       "io.circe" %% "circe-generic" % "0.14.2",
       "io.circe" %% "circe-golden" % "0.3.0",
-      "io.github.kirill5k" %% "mongo4cats-core" % "0.6.2",
+      "io.github.kirill5k" %% "mongo4cats-core" % "0.6.4",
       "is.cir" %% "ciris" % "2.4.0",
-      "org.http4s" %% "http4s-server" % "1.0.0-M36",
+      "org.http4s" %% "http4s-server" % "1.0.0-M37",
       "org.scalameta" %% "munit" % "0.7.29",
       "org.scodec" %% "scodec-core" % "1.11.10",
       "org.scodec" %% "scodec-bits" % "1.1.34",
