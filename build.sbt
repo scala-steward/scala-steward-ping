@@ -27,7 +27,7 @@ lazy val root = (project in file("."))
       "org.scodec" %% "scodec-core" % "1.11.10",
       "org.scodec" %% "scodec-bits" % "1.1.37",
       "org.typelevel" %% "cats-core" % "2.9.0",
-      "org.typelevel" %% "cats-effect" % "3.4.10",
+      "org.typelevel" %% "cats-effect" % "3.4.11",
       "org.typelevel" %% "cats-mtl" % "1.3.1",
       "org.typelevel" %% "cats-parse" % "0.3.9",
       "org.typelevel" %% "discipline-munit" % "1.0.9",
