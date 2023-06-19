@@ -11,7 +11,7 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "co.fs2" %% "fs2-core" % "3.7.0",
       "com.codecommit" %% "skolems" % "0.2.1",
-      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.16",
+      "com.dimafeng" %% "testcontainers-scala-core" % "0.40.17",
       "com.github.fs2-blobstore" %% "s3" % "0.9.8",
       "dev.optics" %% "monocle-core" % "3.2.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.2",
