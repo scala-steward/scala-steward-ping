@@ -30,7 +30,7 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "cats-effect" % "3.5.4",
       "org.typelevel" %% "cats-mtl" % "1.4.0",
       "org.typelevel" %% "cats-parse" % "0.3.10",
-      "org.typelevel" %% "discipline-munit" % "1.0.9",
+      "org.typelevel" %% "discipline-munit" % "2.0.0",
       "org.typelevel" %% "log4cats-core" % "2.7.0",
       "org.typelevel" %% "munit-cats-effect" % "2.0.0",
       "org.typelevel" %% "scalacheck-effect" % "1.0.4"
