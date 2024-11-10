@@ -1,5 +1,5 @@
 addSbtPlugin("com.github.sbt" % "sbt-github-actions" % "0.24.0")
-addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.13.0")
+addSbtPlugin("com.eed3si9n" % "sbt-buildinfo" % "0.13.1")
 addSbtPlugin("com.github.cb372" % "sbt-explicit-dependencies" % "0.3.1")
 addSbtPlugin("de.heikoseeberger" % "sbt-header" % "5.10.0")
 addSbtPlugin("io.crashbox" % "sbt-gpg" % "0.2.1")
