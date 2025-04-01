@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "scala-steward-ping",
     libraryDependencies ++= Seq(
-      "co.fs2" %% "fs2-core" % "3.11.0",
+      "co.fs2" %% "fs2-core" % "3.12.0",
       "com.codecommit" %% "skolems" % "0.2.1",
       "com.dimafeng" %% "testcontainers-scala-core" % "0.43.0",
       "com.github.fs2-blobstore" %% "s3" % "0.9.15",
@@ -21,7 +21,7 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-generic" % "0.14.12",
       "io.circe" %% "circe-golden" % "0.5.0",
       "io.github.kirill5k" %% "mongo4cats-core" % "0.7.13",
-      "is.cir" %% "ciris" % "3.7.0",
+      "is.cir" %% "ciris" % "3.8.0",
       "org.http4s" %% "http4s-server" % "1.0.0-M44",
       "org.scalameta" %% "munit" % "1.1.0",
       "org.scodec" %% "scodec-core" % "1.11.10",
@@ -32,7 +32,7 @@ lazy val root = (project in file("."))
       "org.typelevel" %% "cats-parse" % "1.1.0",
       "org.typelevel" %% "discipline-munit" % "2.0.0",
       "org.typelevel" %% "log4cats-core" % "2.7.0",
-      "org.typelevel" %% "munit-cats-effect" % "2.0.0",
+      "org.typelevel" %% "munit-cats-effect" % "2.1.0",
       "org.typelevel" %% "scalacheck-effect" % "1.0.4"
     )
   )
