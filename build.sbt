@@ -25,7 +25,7 @@ lazy val root = (project in file("."))
       "org.http4s" %% "http4s-server" % "1.0.0-M44",
       "org.scalameta" %% "munit" % "1.1.1",
       "org.scodec" %% "scodec-core" % "1.11.11",
-      "org.scodec" %% "scodec-bits" % "1.2.2",
+      "org.scodec" %% "scodec-bits" % "1.2.3",
       "org.typelevel" %% "cats-core" % "2.13.0",
       "org.typelevel" %% "cats-effect" % "3.6.1",
       "org.typelevel" %% "cats-mtl" % "1.5.0",
