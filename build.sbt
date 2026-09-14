@@ -21,7 +21,7 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-generic" % "0.14.16",
       "io.circe" %% "circe-golden" % "0.5.1",
       "io.github.kirill5k" %% "mongo4cats-core" % "0.7.18",
-      "is.cir" %% "ciris" % "3.15.0",
+      "is.cir" %% "ciris" % "3.15.1",
       "org.http4s" %% "http4s-server" % "1.0.0-M48",
       "org.scalameta" %% "munit" % "1.3.6",
       "org.scodec" %% "scodec-core" % "1.11.11",
