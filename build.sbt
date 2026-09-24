@@ -16,7 +16,7 @@ lazy val root = (project in file("."))
       "dev.optics" %% "monocle-core" % "3.3.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.2",
       "io.chrisdavenport" %% "cormorant-fs2" % "0.5.0-M1",
-      "io.chrisdavenport" %% "fuuid" % "0.8.0-M2",
+      "io.chrisdavenport" %% "fuuid" % "0.8.0-M4",
       "io.chrisdavenport" %% "mapref" % "0.2.1",
       "io.circe" %% "circe-generic" % "0.14.16",
       "io.circe" %% "circe-golden" % "0.5.1",
