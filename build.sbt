@@ -15,7 +15,7 @@ lazy val root = (project in file("."))
       "com.github.fs2-blobstore" %% "s3" % "0.13.0",
       "dev.optics" %% "monocle-core" % "3.3.0",
       "io.chrisdavenport" %% "cats-scalacheck" % "0.3.2",
-      "io.chrisdavenport" %% "cormorant-fs2" % "0.5.0-M1",
+      "io.chrisdavenport" %% "cormorant-fs2" % "0.5.0-M2",
       "io.chrisdavenport" %% "fuuid" % "0.8.0-M2",
       "io.chrisdavenport" %% "mapref" % "0.3.0",
       "io.circe" %% "circe-generic" % "0.14.16",
