@@ -18,7 +18,7 @@ lazy val root = (project in file("."))
       "io.chrisdavenport" %% "cormorant-fs2" % "0.5.0",
       "io.chrisdavenport" %% "fuuid" % "0.8.0",
       "io.chrisdavenport" %% "mapref" % "0.4.0",
-      "io.circe" %% "circe-generic" % "0.14.16",
+      "io.circe" %% "circe-generic" % "0.14.17",
       "io.circe" %% "circe-golden" % "0.5.1",
       "io.github.kirill5k" %% "mongo4cats-core" % "0.8.0",
       "is.cir" %% "ciris" % "3.15.1",
